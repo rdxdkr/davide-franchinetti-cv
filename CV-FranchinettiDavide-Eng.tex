@@ -1,0 +1,148 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage[english]{babel}
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin-SmallCaps]{Fontin-Regular} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{8pt}{8pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge \textsc{Davide Franchinetti}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & Italy | 9 June 1995 \\
+\textsc{Address:} & Strada Privata Merli 6, Novara, 28100, Italy \\
+%\textsc{Phone:} & (Ask privately)\\
+\textsc{Email:} & \href{mailto:davide.franchinetti@gmail.com}{\underline{davide.franchinetti@gmail.com}}\\
+\textsc{GitHub:} & \href{https://github.com/rdxdkr}{\underline{rdxdkr}}\\
+\textsc{StackOverflow:} & \href{https://stackoverflow.com/users/9212745/rdxdkr}{\underline{rdxdkr}}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\textsc{Apr 2022} & Bachelor Degree in Computer Science\\
+& \textbf{Università del Piemonte Orientale}, Vercelli\\
+& \textsc{Thesis:} ``Electronic control of accesses during a pandemic''\\
+& \small \textsc{Advisor:} Prof. Marco Guazzone\\
+& \normalsize \textsc{Score:} 109/110\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{10.5cm}}
+\textsc{Nov 2020-Apr 2021} & Intern at \textsc{MasterSoft S.R.L.}, Novara \emph{}\\
+& \footnotesize{Developed a client-server system for allowing people to safely perform accesses in person or remotely, on which the Bachelor Thesis was based. Accesses in person involved the use of face and mask detection, together with barcode scanning, temperature measurement, and Text To Speech within an Android app. Rated ``\emph{Excellent}'' for the general performance, effective communication with other team members, and proactivity in self-learning and applying new concepts and technologies.}\\
+\multicolumn{2}{c}{}\\
+
+%------------------------------------------------
+
+\textsc{2013-Present} & Amateur Computer Technician, \textsc{Self Employed} \emph{}\\
+& \footnotesize{Assembled and upgraded many desktop computers for self and relatives, after having performed enough research about latest hardware releases, prices, and available technologies. Written guides, tutorials, and documentation for non technical people, with the aim of helping them understand how to use a certain operating system (e.g. Linux) or software.}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Certificates}
+
+\begin{tabular}{rp{10.5cm}}
+\textsc{Jun 2012} & First Certificate in English\\
+& \textbf{University of Cambridge, ESOL Examinations}\\
+& \textsc{Level:} B2
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent\\
+\textsc{Italian:} & Native\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+\textsc{Intermediate:} & Kotlin \footnotesize(Android, CameraX, ML Kit, Ktor)\normalsize, Java \footnotesize(JUnit 4)\normalsize, C\\
+\textsc{Basic:} & Rust, Python \footnotesize(Django)\normalsize, C\# \footnotesize(Unity game engine, ASP.NET Core)\normalsize, PostgreSQL, {\sffamily\LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Walking outdoors, Calisthenics, Cooking \footnotesize(first and second courses)\normalsize, Open Source Software\\
+Quirks and peculiarities of programming languages \footnotesize(syntax and idioms)\normalsize\\
+Videogames, Music \footnotesize(current favourite artist: \href{https://youtu.be/tsmThCBkBUo}{\underline{Al Di Meola}})\normalsize, \href{https://youtu.be/NRf48k8f-Yc}{\underline{Wet Shaving}}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
