@@ -1,6 +1,6 @@
 # Curriculum Vitae of Davide Franchinetti
 
-This repository hosts my CV in Italian and English (updated 31 May 2022).
+This repository hosts my CV in Italian and English (updated 4 June 2022).
 
 It includes the PDF output so you can download and view it directly even if you don't want to compile it yourself with LaTeX.
 
